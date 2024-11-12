@@ -1,4 +1,4 @@
-// Clear all input fields
+// เคลียร์ input field
 function clearInputs() {
     document.getElementById('sizeA').value = '';
     document.getElementById('costA').value = '';
@@ -7,7 +7,7 @@ function clearInputs() {
     document.getElementById('result').innerHTML = ''; // Clear result display
 }
 
-// Calculate and compare the cost-effectiveness
+// คำนวณและเปรียบเทียบความคุ้ม
 function comparePrices() {
     const sizeA = parseFloat(document.getElementById('sizeA').value);
     const costA = parseFloat(document.getElementById('costA').value);
