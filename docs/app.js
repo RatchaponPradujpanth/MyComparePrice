@@ -18,7 +18,7 @@ function comparePrices() {
     resultElement.classList.remove('error'); // ลบคลาส error ถ้ามี
 
     if (isNaN(sizeA) || isNaN(costA) || isNaN(sizeB) || isNaN(costB) || sizeA <= 0 || sizeB <= 0) {
-        resultElement.innerHTML = 'โปรดใส่ตัวลขที่มากกว่า 0 ใน size และ cost.';
+        resultElement.innerHTML = 'โปรดใส่ตัวเลขที่มากกว่า 0 ใน size และ cost.';
         resultElement.classList.add('error'); // เพิ่มคลาส error สำหรับข้อความผิดพลาด
         return;
     }
